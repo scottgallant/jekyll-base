@@ -1,0 +1,13 @@
+.hero {
+  // @include background-image(linear-gradient(to bottom right, rgba(31,118,211,1), #dddddd));
+  background-color: blue;
+  position: relative;
+  padding-top: 10px;
+  color: #cdbfe3;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+* {
+	font-family: 'Open Sans'
+}
