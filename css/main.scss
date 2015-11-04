@@ -3,15 +3,13 @@
 ---
 @charset "utf-8";
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "vars";
 @import "normalize";
 @import "skeleton";
 @import "theme";
-@import "vars";
 @import "typography";
 @import "libs/font-awesome.min.scss";
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600|Raleway:500,700,800');
-
-
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600|Amiri:400,400italic,700,700italic');
 
 /* Table of Content
 ==================================================

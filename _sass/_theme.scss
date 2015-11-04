@@ -1,6 +1,6 @@
 .hero {
   // @include background-image(linear-gradient(to bottom right, rgba(31,118,211,1), #dddddd));
-  background-color: blue;
+  background-color: rgba(21, 21, 62, 0.84);
   position: relative;
   padding-top: 10px;
   color: #cdbfe3;
@@ -8,6 +8,7 @@
   padding-bottom: 40px;
 }
 
-* {
-	font-family: 'Open Sans'
+
+.site-footer {
+  background-color: rgba(21, 21, 62, 0.84);
 }
