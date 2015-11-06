@@ -1,14 +1,97 @@
 .hero {
-  // @include background-image(linear-gradient(to bottom right, rgba(31,118,211,1), #dddddd));
-  background-color: rgba(21, 21, 62, 0.84);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#011936+0,129490+100 */
+	background: #011936; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #011936 0%, #129490 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#011936), color-stop(100%,#129490)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #011936 0%,#129490 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #011936 0%,#129490 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #011936 0%,#129490 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #011936 0%,#129490 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011936', endColorstr='#129490',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   position: relative;
-  padding-top: 10px;
-  color: #cdbfe3;
+  padding: 160px 0 100px;
+  color: #E0E0E2;
   text-align: center;
-  padding-bottom: 40px;
+  margin-bottom: 100px;
+
+  h1 {
+  	color: white;
+  	max-width: 600px;
+  	margin: 0 auto 1em;
+  }
+
+  .subtitle {
+  	font-size: 24px;
+  	color: #89D9F1;
+  	margin-bottom: 60px;
+  }
 }
 
+.site-header {
+	// background-color: $dark-bg;
+	color: white;
+	height: 60px;
+	line-height: 60px;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+
+	.site-title {
+		display: block;
+		background-image: url(../images/staticthemes-logo.png);
+		background-repeat: no-repeat;
+		background-size: 130px 24px;
+		top: 20px;
+		margin-left: 20px;
+		position: relative;
+		overflow: hidden;
+		text-indent: 9999px;
+		width: 130px;
+		white-space: nowrap;
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+		ul {
+			list-style-type: none;
+			margin-right: 30px;
+		}
+		li {
+			float: left;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+			font-size: 14px;
+		}
+	}
+}
+
+.value-prop {
+	h3 {
+		padding-top: 100px;
+	}
+
+	img {
+		border-radius: 6px;
+	}
+}
 
 .site-footer {
-  background-color: rgba(21, 21, 62, 0.84);
+	padding: 150px 0;
+	margin-top: 100px;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#011936+0,129490+100 */
+background: #011936; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #011936 0%, #129490 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#011936), color-stop(100%,#129490)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #011936 0%,#129490 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #011936 0%,#129490 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #011936 0%,#129490 100%); /* IE10+ */
+background: linear-gradient(45deg,  #011936 0%,#129490 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011936', endColorstr='#129490',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
+
